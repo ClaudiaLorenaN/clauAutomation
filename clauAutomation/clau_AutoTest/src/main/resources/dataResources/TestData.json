@@ -1,0 +1,34 @@
+[
+  {
+    "testId": "TC-001",
+    "userName": "standard_user",
+    "password": "secret_sauce",
+    "loginAssert": "Products"
+
+  },
+  {
+    "testId": "TC-002",
+    "userName": "NoUser",
+    "password": "NoPass",
+    "loginAssert": "Epic sadface: Username and password do not match any user in this service"
+  },
+  {
+    "testId": "TC-003",
+    "userName": "Testusername",
+    "password": "",
+    "loginAssert": "Epic sadface: Password is required"
+  },
+  {
+    "testId": "TC-004",
+    "userName": "",
+    "password": "secret_sauce",
+    "loginAssert": "Epic sadface: Username is required"
+  },
+  {
+    "testId": "TC-005",
+    "userName": "",
+    "password": "",
+    "loginAssert": "Epic sadface: Username is required"
+  }
+
+]
